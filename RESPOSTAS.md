@@ -1,20 +1,20 @@
 # Respostas do LAB 01
 
-Nome:
-Matricula:
-Dupla (M2 em diante):
+Nome: Yago Dias dos Santos
+Dupla (M2 em diante): Mateus Alcantara da Silva
 
 ---
 
 ## M2 - Quem quebrou o painel
 
-**Hash curto do commit que introduziu o erro:**
+**Hash curto do commit que introduziu o erro:** 01ef93b
 
-**Autor:**
+**Autor:** Tarcisio Melo
 
-**Data:**
+**Data:** 15/06/2026 às 22:38:00 (-03:00)
 
 **Linha alterada (antes e depois):**
+
 
 ```
 antes:
@@ -23,12 +23,15 @@ depois:
 
 ---
 
+
+---
+
 ## M3 - O segredo vazado
 
-**O que voce esperava ver no `git status` e o que apareceu:**
+**O que voce esperava ver no** **`git status`** **e o que apareceu:**
 
-**Depois do push, alguem que clonar o repositorio ainda consegue ler a chave?
-Responda em duas linhas, explicando o motivo:**
+**Depois do push, alguem que clonar o repositorio ainda consegue ler a chave?**
+**Responda em duas linhas, explicando o motivo:**
 
 ---
 
@@ -50,4 +53,4 @@ Responda em duas linhas, explicando o motivo:**
 
 **Hash do commit de revert:**
 
-**Por que `git revert` e nao `git reset` neste caso:**
+**Por que** **`git revert`** **e nao** **`git reset`** **neste caso:**
