@@ -30,8 +30,12 @@ depois:
 
 **O que voce esperava ver no** **`git status`** **e o que apareceu:**
 
+Eu esperava que o arquivo `config/credenciais.env` deixasse de aparecer no Git após ser adicionado ao `.gitignore`. Porém, o `git status` mostrou o arquivo `.gitignore` como untracked, enquanto o `config/credenciais.env` continuou sendo rastreado pelo Git.
+
 **Depois do push, alguem que clonar o repositorio ainda consegue ler a chave?**
 **Responda em duas linhas, explicando o motivo:**
+
+Sim. Como o arquivo já fazia parte do histórico do Git, adicioná-lo ao `.gitignore` não remove os commits antigos. Além disso, o conteúdo continua disponível no histórico, então a credencial deve ser considerada comprometida e, na vida real, precisa ser rotacionada.
 
 ---
 
