@@ -15,14 +15,18 @@ Dupla (M2 em diante): Mateus Alcantara da Silva
 
 **Linha alterada (antes e depois):**
 
-
 ```
 antes:
+
+return (Leitura - 32) * 5 / 9;
+
+
 depois:
+
+return leitura * 9 / 5 + 32;
 ```
 
 ---
-
 
 ---
 
@@ -43,11 +47,13 @@ Sim. Como o arquivo já fazia parte do histórico do Git, adicioná-lo ao `.giti
 
 **O que significavam os marcadores que apareceram dentro do arquivo:**
 
-- `<<<<<<<` :
-- `=======` :
-- `>>>>>>>` :
+- `<<<<<<<` : indica o início da versão que estava na branch atual (`main`).
+- `=======` : separa as duas versões que entraram em conflito.
+- `>>>>>>>` : indica o fim da versão que veio da branch que estava sendo mesclada (`painel-b`).
 
 **Qual pedaco veio de quem, e qual titulo voces decidiram manter:**
+
+A versão da `main` veio da Pessoa A (Yago), com o título `Painel da Linha 3 - Pessoa A`. A versão da `painel-b` veio da Pessoa B (Mateus), com o título `Painel da Linha 3 - Pessoa B`. Decidimos manter o título da Pessoa A: `Painel da Linha 3 - Pessoa A`.
 
 ---
 
